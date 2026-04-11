@@ -1,0 +1,15 @@
+{
+  "name": "mirissa-sri-lanka",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Discover Mirissa — Sri Lanka's tropical paradise. A stunning travel destination website.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.3.0"
+  }
+}

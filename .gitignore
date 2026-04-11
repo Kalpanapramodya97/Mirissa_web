@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.env
+.env.local
+infrastructure/*.tfstate
+infrastructure/*.tfstate.*
+infrastructure/outputs.json
+infrastructure/.terraform/
+infrastructure/.terraform.lock.hcl

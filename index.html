@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mirissa — Sri Lanka's Tropical Paradise | Beach, Whales & Sunsets</title>
+  <meta name="description" content="Discover Mirissa, Sri Lanka — pristine beaches, spectacular whale watching, Coconut Tree Hill sunsets, and unforgettable tropical experiences. Plan your dream getaway." />
+  <meta name="keywords" content="Mirissa, Sri Lanka, beach, whale watching, Coconut Tree Hill, travel, tropical paradise, surfing, Secret Beach" />
+  <meta property="og:title" content="Mirissa — Sri Lanka's Tropical Paradise" />
+  <meta property="og:description" content="Pristine beaches, blue whale encounters, and golden sunsets await in Mirissa, Sri Lanka." />
+  <meta property="og:image" content="/images/hero.png" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-icon">🌴</span>
+        <span class="logo-text">Mirissa</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#attractions" class="nav-link">Attractions</a></li>
+        <li><a href="#whales" class="nav-link">Whale Watching</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#visit" class="nav-link">Plan Visit</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-bg">
+      <img src="/images/hero.png" alt="Mirissa Beach aerial view at sunset" class="hero-image" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-subtitle animate-fade-up">🏖️ Welcome to Paradise</p>
+      <h1 class="hero-title animate-fade-up delay-1">
+        <span class="title-line">Discover</span>
+        <span class="title-line gradient-text">Mirissa</span>
+      </h1>
+      <p class="hero-desc animate-fade-up delay-2">Sri Lanka's most enchanting coastal gem — where golden sunsets meet the deep blue Indian Ocean</p>
+      <div class="hero-cta animate-fade-up delay-3">
+        <a href="#attractions" class="btn btn-primary" id="explore-btn">
+          <span>Explore Mirissa</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
+        </a>
+        <a href="#whales" class="btn btn-glass" id="whales-btn">
+          <span>🐋 Whale Watching</span>
+        </a>
+      </div>
+      <div class="hero-stats animate-fade-up delay-4">
+        <div class="stat">
+          <span class="stat-number" data-target="365">0</span>
+          <span class="stat-label">Sunny Days</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="26">0</span>
+          <span class="stat-suffix">°C</span>
+          <span class="stat-label">Avg Temp</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="98">0</span>
+          <span class="stat-suffix">%</span>
+          <span class="stat-label">Whale Sighting</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag animate-on-scroll">About Mirissa</span>
+        <h2 class="section-title animate-on-scroll">A Paradise on Earth</h2>
+        <p class="section-desc animate-on-scroll">Nestled on the southern coast of Sri Lanka, Mirissa is a dreamy coastal village where palm-fringed beaches meet the vast Indian Ocean. Once a quiet fishing hamlet, it has blossomed into one of Asia's most beloved tropical destinations.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card glass-card animate-on-scroll">
+          <div class="card-icon">🌊</div>
+          <h3>Pristine Beaches</h3>
+          <p>Miles of unspoiled golden sand kissed by warm turquoise waters, perfect for swimming, surfing, or simply soaking up the tropical sun.</p>
+        </div>
+        <div class="about-card glass-card animate-on-scroll">
+          <div class="card-icon">🐋</div>
+          <h3>Whale Capital</h3>
+          <p>The world's best spot to witness majestic Blue Whales in their natural habitat, with a 98% sighting success rate during peak season.</p>
+        </div>
+        <div class="about-card glass-card animate-on-scroll">
+          <div class="card-icon">🌅</div>
+          <h3>Epic Sunsets</h3>
+          <p>Watch the sky transform into a canvas of gold, amber, and violet from Coconut Tree Hill — one of Sri Lanka's most iconic viewpoints.</p>
+        </div>
+        <div class="about-card glass-card animate-on-scroll">
+          <div class="card-icon">🍛</div>
+          <h3>Local Cuisine</h3>
+          <p>Savour fresh-caught seafood, traditional Sri Lankan rice and curry, and tropical fruit smoothies at charming beachside eateries.</p>
+        </div>
+        <div class="about-card glass-card animate-on-scroll">
+          <div class="card-icon">🏄</div>
+          <h3>Surf & Adventure</h3>
+          <p>From beginner-friendly waves at nearby Weligama to snorkelling reefs and stand-up paddleboarding in Mirissa Bay.</p>
+        </div>
+        <div class="about-card glass-card animate-on-scroll">
+          <div class="card-icon">🏛️</div>
+          <h3>Rich Heritage</h3>
+          <p>Explore the UNESCO-listed Galle Fort just an hour away — a stunning blend of Dutch colonial architecture and Sri Lankan culture.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Attractions Section -->
+  <section id="attractions" class="section attractions">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag animate-on-scroll">Must-Visit Places</span>
+        <h2 class="section-title animate-on-scroll">Iconic Attractions</h2>
+        <p class="section-desc animate-on-scroll">From hidden coves to hilltop paradises, Mirissa's landmarks will leave you breathless.</p>
+      </div>
+
+      <!-- Attraction 1: Coconut Tree Hill -->
+      <div class="attraction-row animate-on-scroll">
+        <div class="attraction-image-wrap">
+          <img src="/images/coconut-tree-hill.png" alt="Coconut Tree Hill panoramic view" class="attraction-image" loading="lazy" />
+          <div class="image-badge">📍 Must Visit</div>
+        </div>
+        <div class="attraction-content">
+          <span class="attraction-number">01</span>
+          <h3 class="attraction-title">Coconut Tree Hill</h3>
+          <p class="attraction-desc">Perched on a hillside overlooking the Indian Ocean, Coconut Tree Hill is arguably Mirissa's most iconic landmark. Dozens of tall coconut palms lean dramatically over the lush green hilltop, creating an otherworldly, Instagram-perfect scene.</p>
+          <ul class="attraction-highlights">
+            <li>🌅 Best at sunrise & sunset</li>
+            <li>📸 Sri Lanka's most photographed spot</li>
+            <li>🚶 15-minute walk from Mirissa Beach</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Attraction 2: Secret Beach -->
+      <div class="attraction-row reverse animate-on-scroll">
+        <div class="attraction-image-wrap">
+          <img src="/images/secret-beach.png" alt="Secret Beach hidden cove" class="attraction-image" loading="lazy" />
+          <div class="image-badge">🤫 Hidden Gem</div>
+        </div>
+        <div class="attraction-content">
+          <span class="attraction-number">02</span>
+          <h3 class="attraction-title">Secret Beach</h3>
+          <p class="attraction-desc">Tucked away between rocky outcrops and lush tropical vegetation, Secret Beach is a small, sheltered cove that lives up to its name. The calm, crystal-clear turquoise waters make it perfect for a peaceful swim away from the crowds.</p>
+          <ul class="attraction-highlights">
+            <li>🏊 Calm waters for swimming</li>
+            <li>🌿 Surrounded by native vegetation</li>
+            <li>🍹 Quaint beach bar nearby</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Attraction 3: Parrot Rock -->
+      <div class="attraction-row animate-on-scroll">
+        <div class="attraction-image-wrap">
+          <img src="/images/parrot-rock.png" alt="Parrot Rock at sunset" class="attraction-image" loading="lazy" />
+          <div class="image-badge">🪨 Natural Wonder</div>
+        </div>
+        <div class="attraction-content">
+          <span class="attraction-number">03</span>
+          <h3 class="attraction-title">Parrot Rock</h3>
+          <p class="attraction-desc">Rising majestically from the eastern end of Mirissa Beach, Parrot Rock is a dramatic rocky headland accessible on foot at low tide. Climb to the top for sweeping 360° panoramic views of the coastline, the beach, and the endless ocean horizon.</p>
+          <ul class="attraction-highlights">
+            <li>🌊 Accessible at low tide</li>
+            <li>👁️ 360° panoramic views</li>
+            <li>🎣 Popular fishing spot</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Whale Watching Section -->
+  <section id="whales" class="section whales">
+    <div class="whales-bg">
+      <img src="/images/whale-watching.png" alt="Blue whale in Indian Ocean" class="whales-bg-image" loading="lazy" />
+      <div class="whales-overlay"></div>
+    </div>
+    <div class="container whales-content">
+      <div class="section-header light">
+        <span class="section-tag animate-on-scroll">World-Class Experience</span>
+        <h2 class="section-title animate-on-scroll">Whale Watching</h2>
+        <p class="section-desc animate-on-scroll">Mirissa is the undisputed whale-watching capital of Asia. Venture into the deep blue Indian Ocean for a once-in-a-lifetime encounter with the planet's largest creatures.</p>
+      </div>
+      <div class="whales-info-grid">
+        <div class="whale-card glass-card-dark animate-on-scroll">
+          <div class="whale-card-icon">🐋</div>
+          <h3>Blue Whales</h3>
+          <p>The largest animal to ever exist on Earth. Mirissa offers one of the world's highest success rates for sightings — up to 98% during peak season.</p>
+        </div>
+        <div class="whale-card glass-card-dark animate-on-scroll">
+          <div class="whale-card-icon">📅</div>
+          <h3>Best Season</h3>
+          <p>November through April offers the calmest seas and most frequent sightings. Morning departures at 6:30 AM from Mirissa Harbour.</p>
+        </div>
+        <div class="whale-card glass-card-dark animate-on-scroll">
+          <div class="whale-card-icon">🐬</div>
+          <h3>Dolphins Too</h3>
+          <p>Pods of playful Spinner Dolphins frequently accompany the boats, dancing through the waves in groups of hundreds.</p>
+        </div>
+        <div class="whale-card glass-card-dark animate-on-scroll">
+          <div class="whale-card-icon">⏱️</div>
+          <h3>Tour Duration</h3>
+          <p>Tours last 4–5 hours, covering 15–20 nautical miles into the deep ocean. Choose ethical operators who respect marine wildlife.</p>
+        </div>
+      </div>
+      <div class="whale-cta animate-on-scroll">
+        <a href="#visit" class="btn btn-glow" id="book-whale-btn">Plan Your Whale Watch →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="section gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag animate-on-scroll">Visual Journey</span>
+        <h2 class="section-title animate-on-scroll">Gallery</h2>
+        <p class="section-desc animate-on-scroll">A glimpse into the magic of Mirissa through stunning imagery.</p>
+      </div>
+      <div class="gallery-grid animate-on-scroll">
+        <div class="gallery-item large">
+          <img src="/images/hero.png" alt="Mirissa Beach sunset panorama" loading="lazy" />
+          <div class="gallery-caption">
+            <h4>Golden Sunset</h4>
+            <p>Mirissa Beach at dusk</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="/images/coconut-tree-hill.png" alt="Coconut Tree Hill" loading="lazy" />
+          <div class="gallery-caption">
+            <h4>Coconut Tree Hill</h4>
+            <p>Iconic hilltop viewpoint</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="/images/whale-watching.png" alt="Whale watching experience" loading="lazy" />
+          <div class="gallery-caption">
+            <h4>Blue Whale</h4>
+            <p>Ocean encounter</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="/images/secret-beach.png" alt="Secret Beach cove" loading="lazy" />
+          <div class="gallery-caption">
+            <h4>Secret Beach</h4>
+            <p>Hidden paradise cove</p>
+          </div>
+        </div>
+        <div class="gallery-item tall">
+          <img src="/images/parrot-rock.png" alt="Parrot Rock at sunset" loading="lazy" />
+          <div class="gallery-caption">
+            <h4>Parrot Rock</h4>
+            <p>Dramatic sunset views</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Plan Your Visit Section -->
+  <section id="visit" class="section visit">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag animate-on-scroll">Travel Guide</span>
+        <h2 class="section-title animate-on-scroll">Plan Your Visit</h2>
+        <p class="section-desc animate-on-scroll">Everything you need to know to plan your perfect Mirissa getaway.</p>
+      </div>
+      <div class="visit-grid">
+        <div class="visit-card glass-card animate-on-scroll">
+          <div class="visit-card-header">
+            <span class="visit-icon">✈️</span>
+            <h3>Getting There</h3>
+          </div>
+          <ul class="visit-list">
+            <li><strong>From Colombo Airport:</strong> 3–4 hour drive south along the coastal highway</li>
+            <li><strong>Train:</strong> Scenic coastal train to Weligama, then 15 min tuk-tuk</li>
+            <li><strong>From Galle:</strong> 1 hour drive along the beautiful southern coast</li>
+          </ul>
+        </div>
+        <div class="visit-card glass-card animate-on-scroll">
+          <div class="visit-card-header">
+            <span class="visit-icon">🗓️</span>
+            <h3>Best Time to Visit</h3>
+          </div>
+          <ul class="visit-list">
+            <li><strong>Peak Season:</strong> November — April (dry, sunny, calm seas)</li>
+            <li><strong>Whale Watching:</strong> December — April (best sightings)</li>
+            <li><strong>Surfing:</strong> Year-round, best November — March</li>
+            <li><strong>Budget Travel:</strong> May — October (lower prices, some rain)</li>
+          </ul>
+        </div>
+        <div class="visit-card glass-card animate-on-scroll">
+          <div class="visit-card-header">
+            <span class="visit-icon">🏨</span>
+            <h3>Where to Stay</h3>
+          </div>
+          <ul class="visit-list">
+            <li><strong>Luxury:</strong> Boutique villas with infinity pools overlooking the bay</li>
+            <li><strong>Mid-Range:</strong> Charming guesthouses along the beach road</li>
+            <li><strong>Budget:</strong> Cosy hostels and homestays from $15/night</li>
+          </ul>
+        </div>
+        <div class="visit-card glass-card animate-on-scroll">
+          <div class="visit-card-header">
+            <span class="visit-icon">💡</span>
+            <h3>Travel Tips</h3>
+          </div>
+          <ul class="visit-list">
+            <li>Book whale-watching tours in advance during peak season</li>
+            <li>Take motion sickness tablets before boat trips</li>
+            <li>Carry reef-safe sunscreen to protect marine life</li>
+            <li>Visit Coconut Tree Hill early morning to avoid crowds</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Map / Location -->
+      <div class="location-card glass-card animate-on-scroll">
+        <div class="location-info">
+          <h3>📍 Find Mirissa</h3>
+          <p>Southern Province, Sri Lanka<br/>GPS: 5.9483° N, 80.4716° E</p>
+          <div class="location-details">
+            <span>🌡️ 25–30°C year-round</span>
+            <span>💧 Tropical climate</span>
+            <span>🕐 GMT +5:30</span>
+          </div>
+        </div>
+        <div class="location-map">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15920.0!2d80.4716!3d5.9483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae13f0e1c45a983%3A0x9c1e17b4c2c51e9a!2sMirissa!5e0!3m2!1sen!2slk!4v1" 
+            width="100%" 
+            height="300" 
+            style="border:0; border-radius: 16px;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Mirissa location on Google Maps">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="logo-icon">🌴</span>
+          <span class="logo-text">Mirissa</span>
+          <p class="footer-tagline">Sri Lanka's Tropical Paradise</p>
+        </div>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#attractions">Attractions</a>
+          <a href="#whales">Whale Watching</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#visit">Plan Visit</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Discover Mirissa. Crafted with ❤️ for Sri Lanka's southern coast.</p>
+        <p class="footer-infra">Hosted on AWS — S3 + CloudFront | CI/CD via GitHub Actions</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
